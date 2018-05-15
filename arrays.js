@@ -34,7 +34,7 @@ function removeElementFromEndOfArray(array) {
 
 function addElementToEndOfArray(array, el) {
   var newArray = [...array, el]
-  return el
+  return newArray
 }
 
 function destructivelyAddElementToEndOfArray(array, el) {
